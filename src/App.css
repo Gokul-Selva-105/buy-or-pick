@@ -1,0 +1,113 @@
+:root {
+  --body--: #f4f7ff;
+  --flot--: #e3ebff;
+  --fbgst--: #61f38f;
+  --fbgen--: #77f4e7;
+  --sbgst--: #9fc1ff;
+  --sbgen--: #b0acff;
+  --textCol--: #2b2b5e;
+}
+
+body {
+  background-color: var(--body--);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--textCol--);
+  transform: scale(0.9);
+}
+.centerGray {
+  background-color: var(--flot--);
+  padding: 0.5rem 1.8rem;
+  border-radius: 30px;
+}
+
+.cont {
+  position: relative;
+  top: 50px;
+  border-radius: 30px;
+  padding: 2rem 1.8rem 5rem 1.8rem;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+h1{
+    font-size: xx-large;
+    font-weight: 700;
+}
+p{
+    font-weight: 420;
+}
+#firstBtn{
+    width: 100%;
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right,#61f38f,#77f4e7);
+    border-radius: 8px;
+    font-weight: 610;
+}
+.twoP{
+    display: flex;
+    flex-direction: column;
+}
+.fis,.sec{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin: 0px 8px;
+    color: black;
+    font-weight: 500;
+    /* border-bottom: solid black 1px; */
+}
+.tik{
+    margin: 5px;
+    width: 25px;
+    border-radius: 100%;
+    background-color:#2b2b5e30;
+}
+.mid{
+    background-color: var(--body--);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.see{
+    font-weight: 500;
+}
+#Zip{
+    border: solid 1.5px #2b2b5e;
+    outline: none;
+    padding: 0.5rem 0.2rem;
+    border-radius: 7px;
+    width: 52%;
+    font-weight: 630;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+#ser{
+    position: absolute;
+    left: 55px;
+    bottom:190px;
+    /* right: 144px;
+    bottom: 1px; */
+}
+.chi{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.3rem;
+    border-radius: 8px;position: relative;
+    left: 25px;
+}
+#secBtn{
+    background: linear-gradient(to right,#9fc1ff,#b0acff);
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0.9rem;
+    border-radius: 8px;
+    font-weight: 610;
+}
